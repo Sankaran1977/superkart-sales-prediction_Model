@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("superkart_model.joblib")
+model = joblib.load("superkart_model_compressed.joblib")
 
 app = Flask(__name__)
 
